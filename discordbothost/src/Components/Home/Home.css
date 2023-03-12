@@ -1,0 +1,34 @@
+.home{
+    display: flex;
+    position: relative;
+}
+
+.home-container {
+    width: 100%;
+    height: 40rem;
+    background-color: blue;
+}
+
+.home-wrapper {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.home-text{
+    display: block;
+    position: relative;
+}
+
+.Heading{
+    color: white;
+    font-size: 10rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.Discription {
+    display: flex;
+    color: rgb(208, 201, 201);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    justify-self: center;
+}
