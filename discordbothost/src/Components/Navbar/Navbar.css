@@ -57,3 +57,51 @@ nav {
 .nav-btn:hover {
     color: rgb(13, 176, 176);
 }
+
+
+@media screen and (max-width: 960px) {
+    .nav-menu {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      border-top: 1pxsolid #fff;
+      position: absolute;
+      top: 64px;
+      left: -110%;
+      opacity: 1;
+      transition: all 0.5s ease;
+    }
+  
+    .nav-menu.active {
+      background: rgb(37, 37, 37);
+      left: 0px;
+      overflow-x: hidden !important;
+      opacity: 1;
+      transition: all 0.5s ease;
+      z-index: 1;
+    }
+    .nav-item .Active {
+      color: rgb(95, 95, 211);
+      border: none;
+    }
+    .nav-links {
+      padding: 1.5rem;
+      width: 100%;
+      display: table;
+    }
+  
+    .nav-icon {
+      display: flex;
+      position: absolute;
+      width: fit-content;
+      top: 0.5rem;
+      right: 0;
+      transform: translate(-100%, 60%);
+      font-size: 1.8rem;
+      cursor: pointer;
+      color: white;
+    }
+        .nav-link-wrapper {
+          display: flex;
+        }
+      }

@@ -1,5 +1,7 @@
 import React from 'react'
 import './Home.css'
+import Button from '@mui/material/Button';
+
 
 function home() {
   return (
@@ -14,6 +16,14 @@ function home() {
               <h2 className='Discription'>
                 A fast and reliable discord bot hosting.
               </h2>
+              <div className="sign-up">
+              <Button variant="contained" className='signup-btn'>
+                <a 
+                  href="/">
+                  Sign-Up
+                </a>
+              </Button>
+              </div>
               </div>
             </div>
           </div>
