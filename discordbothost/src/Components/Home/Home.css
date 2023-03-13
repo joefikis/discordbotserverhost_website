@@ -21,6 +21,12 @@
     justify-content: center;
 }
 
+.home-text-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 .Heading{
     color: white;
     font-size: 10rem;
@@ -31,17 +37,9 @@
     display: flex;
     color: rgb(208, 201, 201);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    justify-content: center;
-}
-
-.signup-btn {
-    display: flex;
-    justify-self: center;
 }
 
 Button a {
     text-decoration: none;
     color: white;
-    justify-self: center;
-
 }

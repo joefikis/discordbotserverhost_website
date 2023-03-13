@@ -9,7 +9,7 @@ function home() {
       <div className="home-container">
           <div className="home-wrapper">
             <div className="home-text">
-              <div className="home-text-wrapper">
+            <div className="home-text-wrapper">
               <h1 className='Heading'>
                 Host Name
               </h1>
