@@ -34,7 +34,14 @@
     justify-content: center;
 }
 
+.signup-btn {
+    display: flex;
+    justify-self: center;
+}
+
 Button a {
     text-decoration: none;
     color: white;
+    justify-self: center;
+
 }

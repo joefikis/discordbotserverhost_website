@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { BrowserRouter } from 'react-router-dom'
 import './Navbar.css'
 
 function Navbar() {
@@ -8,33 +9,34 @@ function Navbar() {
     const handleClick = () => setClick(!click);
 
   return (
-    <div>
-        <nav>
-            <div className="nav-container">
-                <div className="nav-wrapper">
-                    <div className="nav-logo">
-                        <h1>logo</h1>
-                    </div>
-                    <div className="nav-links">
-                    <ul className={click ? "nav-menu active" : "nav-menu"}>
-                            <li className="nav-link-btn">
-                                <a href="/" className="nav-btn">Home</a>
-                            </li>
-                            <li className="nav-link-btn">
-                                <a href="/about" className="nav-btn">About</a>
-                            </li>
-                            <li className="nav-link-btn ">
-                                <a href="/blog" className="nav-btn">Blog</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div className="nav-icon" onClick={handleClick}>
-                     <i className={click ? "fas fa-times" : "fas fa-bars"}></i>
-                    </div>
+    <BrowserRouter>
+        <div className='nav-container'>
+  
+            <div className='nav-logo'>
+                <h1>Host Name</h1>
             </div>
-        </nav>
-    </div>
+            <div className="nav-link-wrapper">
+              <div className="nav-linkss">
+            <ul className={click ? "nav-menu active" : "nav-menu"}>
+              <a>
+            <li className="nav-item">
+            <a href="/"  activeClassName="Active" className='nav-links'>Home</a>
+            </li>
+            </a>
+            <li className="nav-item">
+                <a href="/about"  activeClassName="Active" className='nav-links'>About</a>
+              </li>
+              <li className="nav-item">
+                <a href="/plans"  activeClassName="Active" className='nav-links'>Plans</a>
+              </li>
+          </ul>
+          </div>
+          </div>
+          <div className="nav-icon" onClick={handleClick}>
+            <i className={click ? "fas fa-times" : "fas fa-bars"}></i>
+          </div>
+        </div>
+    </BrowserRouter>
   )
 }
 
