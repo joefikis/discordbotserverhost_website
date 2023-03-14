@@ -1,45 +1,41 @@
 .home{
     display: flex;
+    justify-content: center;
     position: relative;
 }
 
 .home-container {
+    display: flex;
+    justify-content: center;
     width: 100%;
-    height: 40rem;
-    background-color: blue;
-}
+    height: 30rem;
+    background-image: url(../../Imgs/wp4462550.png);
+  }
+  
 
 .home-wrapper {
     display: flex;
-    justify-content: center;
-    align-content: center;
+    position: static;
 }
 
 .home-text{
     display: flex;
+    justify-content: center;
     position: relative;
-    justify-content: center;
 }
 
-.home-text-wrapper {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+.htext-wrapper {
+    display: block;
 }
 
-.Heading{
+.htext-wrapper h1 {
     color: white;
     font-size: 10rem;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.Discription {
-    display: flex;
+.htext-wrapper h2 {
     color: rgb(208, 201, 201);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-Button a {
-    text-decoration: none;
-    color: white;
-}
