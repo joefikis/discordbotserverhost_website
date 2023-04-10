@@ -4,32 +4,24 @@ import './Cards.css'
 function Cards() {
   return (
     <div>
-        <div className="cards-container">
+       <div className="cards-container">
             <div className="cards-wrapper">
-                <div className="heading"> 
-                    <h1>
-                        Offerings
-                    </h1>
-                </div>
-                <div className="cards">
+                <ul>
                     <div className="card1">
-                        <h1>
-                            Fast Peformance
-                        </h1>
+                        <h1>Smart</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam, quisquam.</p>
                     </div>
                     <div className="card2">
-                        <h1>
-                            Secure Network
-                        </h1>
+                        <h1>Smart</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam, quisquam.</p>
                     </div>
                     <div className="card3">
-                        <h1>
-                            Reliable Uptime
-                        </h1>
+                        <h1>Smart</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam, quisquam.</p>
                     </div>
-                </div>
+                </ul>
             </div>
-        </div>
+       </div>
     </div>
   )
 }
