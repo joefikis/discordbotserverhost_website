@@ -7,6 +7,7 @@ function Cards() {
        <div className="cards-container">
             <div className="cards-wrapper">
                 <ul>
+                    <div className="cards-list">
                     <div className="card1">
                         <h1>Smart</h1>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam, quisquam.</p>
@@ -18,6 +19,7 @@ function Cards() {
                     <div className="card3">
                         <h1>Smart</h1>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam, quisquam.</p>
+                    </div>
                     </div>
                 </ul>
             </div>

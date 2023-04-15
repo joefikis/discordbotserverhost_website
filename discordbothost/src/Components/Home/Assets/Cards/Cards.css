@@ -1,23 +1,33 @@
 .cards-container {
+    height: 10rem;
+    width: 100%;
+    margin-top: 0rem;
+}
+
+.cards-wrapper {
+    display: block;
+    align-items: center;
+}
+
+.cards-list {
     display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
     justify-content: space-between;
 }
 
 .card1, .card2, .card3 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
     background-color: black;
     border: 1px solid #e2e2e2;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     margin-bottom: 20px;
+    height: 10rem;
     padding: 20px;
     width: 30%;
 }
 
-.cards-container {
-    margin-top: 0;
-}
 
 .card p {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
