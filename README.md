@@ -1,2 +1,2 @@
 # discordbotserverhost_template
-this is a website made for a discord bot server host.
+A project website that will hopefully be used
