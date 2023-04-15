@@ -1,5 +1,5 @@
 .cards-container {
-    height: 10rem;
+    height: 30rem;
     width: 100%;
     margin-top: 0rem;
 }
@@ -23,15 +23,19 @@
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     margin-bottom: 20px;
-    height: 10rem;
+    height: 20rem;
     padding: 20px;
     width: 30%;
 }
 
 
-.card p {
+.cards-container p {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     justify-self: center;
+}
+
+.cards-container h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .cards-container p ,h1 {
