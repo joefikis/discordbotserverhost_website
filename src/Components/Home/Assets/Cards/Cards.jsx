@@ -8,6 +8,11 @@ function Cards() {
     <div>
        <div className="cards-container">
             <div className="cards-wrapper">
+              <div className="cards-header">
+                <h1>
+                  Why Us?
+                </h1>
+              </div>
                 <ul>
                     <div className="cards-list">
                         <div className="card1">
