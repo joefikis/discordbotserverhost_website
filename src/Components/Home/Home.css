@@ -8,7 +8,7 @@
     display: flex;
     justify-content: center;
     width: 100%;
-    height: 30rem;
+    height: 40em;
     background-image: url(../../Imgs/wp4462550.png);
   }
   
@@ -26,6 +26,7 @@
 
 .htext-wrapper {
     display: block;
+    margin-top: 5rem;
 }
 
 .htext-wrapper h1 {
