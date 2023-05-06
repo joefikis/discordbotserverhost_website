@@ -1,6 +1,7 @@
 import React from 'react'
 import './Cards.css'
 import Button from '@mui/material/Button';
+import { FaPlane } from "react-icons/fa";
 
 function Cards() {
   return (
@@ -18,21 +19,21 @@ function Cards() {
                           <h1> Smart </h1>
                           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, ducimus.</p>
                           <div className="card1-icon">
-                          <i class="fa-duotone fa-truck-fast"></i>
+                          <FaPlane />
                           </div>
                         </div>
                         <div className="card2">
                           <h1> Smart </h1>
                           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, ducimus.</p>
                           <div className="card2-icon">
-                          <i class="fa-duotone fa-truck-fast"></i>
+                          <FaPlane />
                       </div>
                         </div>
                         <div className="card3">
                           <h1> Smart </h1>
                           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, ducimus.</p>
                           <div className="card3-icon">
-                          <i class="fa-duotone fa-truck-fast"></i>
+                          <FaPlane />
                           </div>
                         </div>
                     </div>

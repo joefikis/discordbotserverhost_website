@@ -43,6 +43,14 @@
     width: 27%;
 }
 
+.card1-icon,
+    .card2-icon,
+                .card3-icon {
+    color: white;
+    margin-top: 3rem;
+    font-size: 10rem;
+}
+
 .card-btn {
     display: flex;
     justify-content: center;
