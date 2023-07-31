@@ -8,7 +8,7 @@
     display: flex;
     justify-content: center;
     width: 100%;
-    height: 40em;
+    height: 45em;
     background-image: url(../../Imgs/wp4462550.png);
   }
   
@@ -21,12 +21,13 @@
 .home-text{
     display: flex;
     justify-content: center;
+    align-items: center;
     position: relative;
 }
 
 .htext-wrapper {
     display: block;
-    margin-top: 5rem;
+    margin-bottom: 8rem;
 }
 
 .htext-wrapper h1 {
@@ -40,3 +41,19 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+
+@media screen and (max-width: 980px) {
+    .home {
+        display: flex;
+        justify-content: center;
+    }
+
+    .htext-wrapper {
+        margin-top: 10rem;
+        justify-content: center;
+    }
+
+    .htext-wrapper h1 {
+        font-size: 5rem;
+    }
+}

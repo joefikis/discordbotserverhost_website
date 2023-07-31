@@ -1,6 +1,8 @@
 import React, { useState } from "react";
-import { BrowserRouter } from 'react-router-dom'
+import { BrowserRouter, NavLink } from 'react-router-dom'
 import './Navbar.css'
+import "@fortawesome/fontawesome-free/css/all.min.css";
+
 
 function Navbar() {
 
@@ -18,22 +20,20 @@ function Navbar() {
             <div className="nav-link-wrapper">
               <div className="nav-linkss">
             <ul className={click ? "nav-menu active" : "nav-menu"}>
-              <a>
             <li className="nav-item">
-            <a href="/"  activeClassName="Active" className='nav-links'>Home</a>
+            <NavLink to="/"  activeClassName="active" reloadDocument className='nav-links' onClick={handleClick} >Home</NavLink>
             </li>
-            </a>
             <li className="nav-item">
-                <a href="/about"  activeClassName="Active" className='nav-links'>About</a>
+                <NavLink to="about" reloadDocument activeClassName="active" className='nav-links' onClick={handleClick} >About</NavLink>
               </li>
               <li className="nav-item">
-                <a href="/plans"  activeClassName="Active" className='nav-links'>Plans</a>
+                <NavLink to="plans"  activeClassName="active" className='nav-links' onClick={handleClick} >Plans</NavLink>
               </li>
           </ul>
           </div>
           </div>
           <div className="nav-icon" onClick={handleClick}>
-            <i className={click ? "fas fa-times" : "fas fa-bars"}></i>
+          <i class={click ? "fa-solid fa-x" : "fa-solid fa-bars"}></i>
           </div>
         </div>
     </BrowserRouter>
