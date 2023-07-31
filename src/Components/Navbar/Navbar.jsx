@@ -21,13 +21,20 @@ function Navbar() {
               <div className="nav-linkss">
             <ul className={click ? "nav-menu active" : "nav-menu"}>
             <li className="nav-item">
-            <NavLink to="/"  activeClassName="active" reloadDocument className='nav-links' onClick={handleClick} >Home</NavLink>
+            <NavLink to="/"  activeClassName="active" reloadDocument className='nav-links' onClick={handleClick} data-aos="fade-in" data-aos-duration="3000" >Home</NavLink>
             </li>
             <li className="nav-item">
-                <NavLink to="about" reloadDocument activeClassName="active" className='nav-links' onClick={handleClick} >About</NavLink>
+                <NavLink to="about" reloadDocument activeClassName="active" className='nav-links' onClick={handleClick} data-aos="fade-in" data-aos-duration="3000" >About</NavLink>
               </li>
               <li className="nav-item">
-                <NavLink to="plans"  activeClassName="active" className='nav-links' onClick={handleClick} >Plans</NavLink>
+                <NavLink to="plans"  activeClassName="active" className='nav-links' onClick={handleClick} data-aos="fade-in" data-aos-duration="3000">Plans</NavLink>
+              </li>
+              <li className="nav-signup">
+                <button>
+                  <a href="/">
+                    SignUp
+                  </a>
+                  </button>
               </li>
           </ul>
           </div>
