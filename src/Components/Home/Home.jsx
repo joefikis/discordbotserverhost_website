@@ -12,7 +12,11 @@ function home() {
           <div className="home-wrapper">
             <div className="home-text" >
             <div className="htext-wrapper">
-              <h1>
+              <h1  
+              data-aos="fade-up" 
+              data-aos-duration="1500"
+              data-aos-offset="200"
+              >
                 Host Name
               </h1>
               <h2>

@@ -9,9 +9,9 @@ function Cards() {
        <div className="cards-container">
             <div className="cards-wrapper">
               <div className="cards-header" 
-                 data-aos="fade-up"
+                 data-aos="fade-in"
                  data-aos-duration="1500"
-                 data-aos-offset="50"                
+                 data-aos-offset="200"                
                   >
                 <h1>
                   Why Us?
@@ -22,7 +22,7 @@ function Cards() {
                         <div className="card1"
                           data-aos="fade-up" 
                           data-aos-duration="1500"
-                          data-aos-offset="200"
+                          data-aos-offset="210"
                           > 
                           <h1> Smart </h1>
                           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, ducimus.</p>
